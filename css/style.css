@@ -1,18 +1,7 @@
-html {
-  font-family: sans-serif;
-}
-* {
-  vertical-align: baseline;
-}
-border 0 none {
-  outline: 0;
-  padding: 0;
-  margin: 0;
-}
 .header {
   display: flex;
   flex: 1;
-  font-size: 3em;
+  font-size: 24px;
   height: 100px;
   background: #800080;
   color: #f0f8ff;
@@ -28,21 +17,25 @@ border 0 none {
 }
 .content {
   height: 300px;
+  width: 800px;
   margin-top: 10px;
   padding: 5px;
-  width: 800px;
   border: 2px solid #ccc;
   background: #eee;
 }
 .menu {
   height: 300px;
   width: 200px;
+  margin-top: 10px;
   border: 2px solid #ccc;
   background: #eee;
-  padding: 20px;
+  padding: 5px;
 }
 .footer {
   display: flex;
   flex: 1;
+  font-size: 24px;
   height: 100px;
+  background: #800080;
+  color: #f0f8ff;
 }
