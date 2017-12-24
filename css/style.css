@@ -1,6 +1,12 @@
 html {
   font-family: sans-serif;
 }
+.header {
+  background: #800080;
+  font-size: 28;
+  color: #f0f8ff;
+  height: 200px;
+}
 .columns {
   display: flex;
 }
