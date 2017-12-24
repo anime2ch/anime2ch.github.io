@@ -3,11 +3,14 @@ html {
 }
 .header {
   background: #800080;
-  font-size: 64px;
   color: #f0f8ff;
   height: 100px;
 }
+.h1 {
+  font-size: 64px;
+}
 .columns {
+  margin-top: 20px;
   display: flex;
 }
 .content {
