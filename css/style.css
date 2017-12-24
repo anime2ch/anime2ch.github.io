@@ -10,10 +10,10 @@ border 0 none {
   margin: 0;
 }
 .header {
-  font-size: 3em;
-  height: 100px;
   display: flex;
   flex: 1;
+  font-size: 3em;
+  height: 100px;
   background: #800080;
   color: #f0f8ff;
 }
