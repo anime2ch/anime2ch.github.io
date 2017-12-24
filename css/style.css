@@ -3,9 +3,9 @@ html {
 }
 .header {
   background: #800080;
-  font-size: 28;
+  font-size: 64px;
   color: #f0f8ff;
-  height: 200px;
+  height: 100px;
 }
 .columns {
   display: flex;
