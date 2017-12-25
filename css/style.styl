@@ -35,3 +35,12 @@
     grid-area f
     background purple
     color aliceblue
+	
+@media screen and (max-width: 640px)
+	.container 
+		grid-template-rows 100px 200px 400px 100px
+		grid-template-areas:
+			"h h h h h h h h h h h h"
+			"m m m m m m m m m m m m"
+			"c c c c c c c c c c c c"
+			"f f f f f f f f f f f f"
